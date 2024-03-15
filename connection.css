@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+.navbar {
+    background-color:  #f2e2e2;
+    font-size: xx-large;  
+    font-family: 'Cormorant', sans-serif;
+    /* font-family: 'Cormorant, serif; */
+   
+}
+main{
+    background-color:#F2E2E2 ;
+}
+.image{
+    height: 18rem;
+    width: 15rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: 10px solid black;
+}
+
+.logo{
+    height: 70px;
+}
+/* bouton de connections */
+.connect{
+    font-family: Playball;
+    font-size: x-large;
+}
+.btn{
+    font-size: x-large;
+    background-color:  #e2cfcf ;
+    display: flex;
+    justify-content: center;   
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: #333;
+    text-align: center;
+    height: 60px;
+    font-family: Playball;
+}
+.icones a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+

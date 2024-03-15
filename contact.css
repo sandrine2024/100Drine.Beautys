@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar {
+    font-family: 'Cormorant', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color:  #f2e2e2;
+    font-size: xx-large;  
+}
+.logo{
+    height: 70px;
+}
+main{
+    background-color:  #f2e2e2;
+    font-family: Playball;
+    height: 100vh;
+    font-size: large;
+}
+.carte{
+    height: 300px;
+}
+
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    font-family: Playball;
+}
+.icones a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+}
