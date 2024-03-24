@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color:  #f2e2e2!important;
+}
+/* navbar */
+.navbar {
+    font-family: 'Cormorant', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color:  #f2e2e2;
+    font-size: xx-large;  
+}
+.logo{
+    height: 73px;
+}
+.nav-link:hover {
+    color: #F09FA8!important; 
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.actif{
+    color:  #F09FA8!important;
+    border-bottom: 3px solid  #F09FA8;
+    padding-bottom: 2px;
+   
+}
+/* section */
+.image{
+    background-image: url(/images/imgage1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position-y: 13%
+}
+#rdv{
+    font-family: 'Playball', sans-serif;  
+    font-size: xx-large;
+    margin-top: 40vh;
+    background-color:rgba(228, 215, 226, 0.5);
+    outline-color: #333;
+    outline: 2px solid ;
+}  
+.welcome{
+    font-family: 'Playball', sans-serif;  
+    font-size: x-large;
+    width: 30%;
+    padding: 30px!important;
+    background-color: rgba(228, 215, 226, 0.5);
+    border-radius: 100%;
+    padding: 2%;
+    font-weight: 500;
+}
+.demonstrations{
+    font-family: 'Playball', sans-serif;
+}  
+.avis{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-family: 'Playball', sans-serif;   
+}
+h2{
+    font-family: 'Playball', sans-serif; 
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    font-family: Playball;
+}
+.icones a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) {
+   .welcome{
+    width: 100%;
+    margin-top: 50px;
+
+   }
+  
+        
+
+     
+
+    
+}
+

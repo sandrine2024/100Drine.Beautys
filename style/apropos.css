@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: #f2e2e2;
+}
 /* navbar */
 .navbar {
     font-family: 'Cormorant', sans-serif;
@@ -13,7 +15,17 @@
 .logo{
     height: 70px;
 }
-
+.nav-link:hover {
+    color: #F09FA8!important; 
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.actif{
+    color:  #F09FA8!important;
+    border-bottom: 3px solid  #F09FA8;
+    padding-bottom: 2px;
+}
 
 
 .texte{
@@ -31,11 +43,11 @@
     margin-top: 3rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    border: 10px solid black;
+    
  
 }
 .page{
-    background-color: #f2e2e2;
+    
     height: 100vh;
 }
 
@@ -67,3 +79,16 @@ footer {
     margin-right: 15px;
     text-decoration: none;
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles spécifiques aux tablettes */
+
+    .photo{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
+  

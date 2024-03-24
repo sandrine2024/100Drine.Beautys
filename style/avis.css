@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0; 
 }
+body{
+    background-color:  #f2e2e2!important;
+}
 /* navbar */
 .navbar {
     font-family: 'Cormorant', sans-serif;
@@ -10,22 +13,26 @@
     font-size: xx-large;  
 }
 .logo{
-    height: 70px;
+    height: 73px;
 }
-/* section */
-.image{
-    background-image: url(img1.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background-position-y: 13%
+.nav-link:hover {
+    color: #F09FA8!important; 
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    cursor: pointer;
 }
-#rdv{
-    font-family: 'Playball', sans-serif;  
-    font-size: xx-large;
-    margin-top: 30%;
-}    
 
+/* avis */
+.avis{
+   padding-top: 100px;
+    font-family: 'Playball', sans-serif;   
+}
+h1{
+    font-family: 'Playball', sans-serif; 
+}
+#avis{
+    padding-bottom: 100px;
+}
 
 /* footer */
 footer {

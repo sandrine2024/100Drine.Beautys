@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+
+body{
+    background-color:#F2E2E2 ;
+}
+
+
+.btn{
+    background-color:  #e2cfcf ;
+}
 /* navbar */
 .navbar {
     font-family: 'Cormorant', sans-serif;
@@ -10,27 +19,35 @@
     background-color:  #f2e2e2;
     font-size: xx-large;  
 }
+.nav-link:hover {
+    color: #F09FA8!important; 
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.actif{
+    color:  #F09FA8!important;
+    border-bottom: 3px solid  #F09FA8;
+    padding-bottom: 2px;
+}
 .logo{
     height: 70px;
 }
-main{
-    background-color:  #f2e2e2;
+.formulaire{
     font-family: Playball;
-    height: 100vh;
     font-size: large;
 }
-.carte{
-    height: 300px;
+.btn{
+    font-size: large;
 }
-
 
 /* footer */
 footer {
     background-color: #333;
     color: #fff;
+    font-family: Playball;
     text-align: center;
     height: 60px;
-    font-family: Playball;
 }
 .icones a {
     color: #fff;

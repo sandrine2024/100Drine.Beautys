@@ -14,6 +14,17 @@ body{
     background-color:  #f2e2e2;
     font-size: xx-large;  
 }
+.nav-link:hover {
+    color: #F09FA8!important; 
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.actif{
+    color:  #F09FA8!important;
+    border-bottom: 3px solid  #F09FA8;
+    padding-bottom: 2px;
+}
 .logo{
     height: 70px;
 }
@@ -40,9 +51,14 @@ footer {
 
 
 
-@media screen and (max-width: 580px) {
-	.flex {
-		display: block;
-	}
+@media (max-width: 590px) {
+    /* Styles spécifiques aux écrans de téléphone */
 
+div{
+  background-position: center;
 }
+img{
+    background-position: center;
+}
+  }
+  
