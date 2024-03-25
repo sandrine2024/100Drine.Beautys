@@ -21,6 +21,14 @@ body{
     padding-bottom: 2px;
     cursor: pointer;
 }
+.connecter{
+    margin: 0;
+}
+.connect{
+    font-size: large !important;
+    display: flex;
+    flex-direction: column !important;
+}
 
 /* avis */
 .avis{

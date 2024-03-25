@@ -25,6 +25,14 @@ body{
     padding-bottom: 2px;
     cursor: pointer;
 }
+.connecter{
+    margin: 0;
+}
+.connect{
+    font-size: large !important;
+    display: flex;
+    flex-direction: column !important;
+}
 .actif{
     color:  #F09FA8!important;
     border-bottom: 3px solid  #F09FA8;
@@ -34,6 +42,7 @@ body{
     height: 70px;
 }
 .formulaire{
+    margin-top: 50px;
     font-family: Playball;
     font-size: large;
 }

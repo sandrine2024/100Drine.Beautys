@@ -33,74 +33,82 @@
   </head>
 
   <body>
-    <!-- barre de navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top font-weight-bold shadow">
-      <div class="container-fluid">
-        <a href="index.html">
-          <img
-            class="logo navbar-brand actif"
-            src="./images/logo 2 png.png"
-            alt="logo"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item ps-5 pe-5">
-              <a
-                class="nav-link text-dark"
-                aria-current="tarif"
-                href="tarifs.html"
-                >Tarifs</a
-              >
-            </li>
-            <li class="nav-item pe-5">
-              <a
-                class="nav-link text-dark"
-                aria-current="connection"
-                href="connection.html"
-                >Connection</a
-              >
-            </li>
-            <li class="nav-item pe-5">
-              <a
-                class="nav-link text-dark"
-                aria-current="a propos"
-                href="apropos.html"
-                >A Propos</a
-              >
-            </li>
-            <li class="nav-item pe-5">
-              <a
-                class="nav-link text-dark"
-                aria-current="avis"
-                href="galerie.html"
-                >Galerie</a
-              >
-            </li>
-            <li class="nav-item pe-5">
-              <a
-                class="nav-link text-dark"
-                aria-current="contact"
-                href="contact.html"
-                >Contact</a
-              >
-            </li>
-          </ul>
+      <!-- barre de navigation -->
+      <nav class="navbar navbar-expand-lg fixed-top font-weight-bold shadow">
+        <div class="container-fluid">
+          <div>
+            <a href="index.html">
+              <img
+                class="logo navbar-brand actif"
+                src="./images/logo_sandrine.svg"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item ps-5 pe-5">
+                  <a
+                    class="nav-link text-dark"
+                    aria-current="tarif"
+                    href="tarifs.html"
+                    >Tarifs</a
+                  >
+                </li>
+  
+                <li class="nav-item pe-5">
+                  <a
+                    class="nav-link text-dark"
+                    aria-current="a propos"
+                    href="apropos.html"
+                    >A Propos</a
+                  >
+                </li>
+                <li class="nav-item pe-5">
+                  <a
+                    class="nav-link text-dark"
+                    aria-current="avis"
+                    href="galerie.html"
+                    >Galerie</a
+                  >
+                </li>
+                <li class="nav-item pe-5">
+                  <a
+                    class="nav-link text-dark"
+                    aria-current="contact"
+                    href="contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="connect nav-item pe-5   ">
+            <a
+            class="nav-link text-dark "
+            aria-current="connection"
+            href="connection.html"
+            >
+            <i class="fa-solid fa-user ms-1 d-flex justify-content-center text-decoration-none"></i>
+            <p class="connecter">Se connecter</p>
+            
+            </a>
+              
+          </div>
         </div>
-      </div>
-    </nav>
-
+      </nav>
 
 <!-- Les avis -->
 <div id="avis">
@@ -108,15 +116,22 @@
     <h1 class="avis">Tous les avis</h1>
   </div>
   
-  <div class="row d-flex justify-content-evenly">
+  <div class="row d-flex justify-content-evenly me-1">
     <div class="col-sm-5 mb-3 mb-sm-0 m-3">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Céline</h5>
-          <p>Note : 4/5</p>
+          <div>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+          </div>
           <h6>Bonne séance</h6>
           <p class="card-text">Très satisfaite de la prestation, c’est de loin la meilleure ! Je suis ravie encore merci !</p>
           <p>
+            <p>14/01/24</p>
             <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
              Réponse
             </button>
@@ -136,11 +151,18 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Ivana</h5>
-          <p>Note : 5/5</p>
-          <h6>Bonne séance</h6>
+          <div>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>         
+          </div>
+          <h6>Super</h6>
           <p>Très satisfaite de la prestation, c’est de loin la meilleure ! Je suis ravie encore merci !
             Vous pouvez y aller les yeux fermés !
             </p>
+            <p>28/01/24</p>
             <p>
               <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExampl" aria-expanded="false" aria-controls="collapseWidthExampl">
                Réponse
@@ -159,15 +181,22 @@
   </div>
 
 
-  <div class="row d-flex justify-content-evenly">
+  <div class="row d-flex justify-content-evenly me-1">
     <div class="col-sm-5 mb-3 mb-sm-0 m-3">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Elena</h5>
-          <p>Note : 4/5</p>
-          <h6>Bonne séance</h6>
+          <div>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+          </div>
+          <h6>Génial</h6>
           <p class="card-text">Dès mon premier rendez-vous, elle a été capable de comprendre mes souhaits en réalisant
             des décos en accord avec ma personnalité.<p>
+              <p>12/02/24</p>
             <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
              Réponse
             </button>
@@ -187,11 +216,18 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Melyn</h5>
-          <p>Note : 5/5</p>
-          <h6>Bonne séance</h6>
+          <div>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" ></i>
+            <i class="fa-sharp fa-solid fa-star" ></i>         
+          </div>
+          <h6>Correcte</h6>
           <p>Très satisfaite de la prestation, c’est de loin la meilleure ! Je suis ravie encore merci !
             Vous pouvez y aller les yeux fermés !
             </p>
+            <p>15/02/24</p>
             <p>
               <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExampl2" aria-expanded="false" aria-controls="collapseWidthExampl2">
                Réponse
@@ -210,14 +246,21 @@
   </div>
 
 
-  <div class="row d-flex justify-content-evenly">
+  <div class="row d-flex justify-content-evenly me-1">
     <div class="col-sm-5 mb-3 mb-sm-0 m-3">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Béatrice</h5>
-          <p>Note : 4/5</p>
-          <h6>Bonne séance</h6>
+          <div>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" ></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+          </div>
+          <h6>Bien</h6>
           <p class="card-text">Très satisfaite de la prestation, c’est de loin la meilleure ! Je suis ravie encore merci !</p>
+          <p>17/02/24</p>
           <p>
             <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
              Réponse
@@ -238,11 +281,18 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Myha</h5>
-          <p>Note : 5/5</p>
-          <h6>Bonne séance</h6>
+          <div>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>         
+          </div>
+          <h6>Bon moment</h6>
           <p>Très satisfaite de la prestation, c’est de loin la meilleure ! Je suis ravie encore merci !
             Vous pouvez y aller les yeux fermés !
             </p>
+            <p>20/02/24</p>
             <p>
               <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExampl4" aria-expanded="false" aria-controls="collapseWidthExampl4">
                Réponse
@@ -261,14 +311,21 @@
   </div>
 
 
-  <div class="row d-flex justify-content-evenly">
+  <div class="row d-flex justify-content-evenly me-1">
     <div class="col-sm-5 mb-3 mb-sm-0 m-3">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Lydia</h5>
-          <p>Note : 4/5</p>
-          <h6>Bonne séance</h6>
+          <div>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color:  #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <i class="fa-sharp fa-solid fa-star"></i>
+          </div>
+          <h6>Jolie</h6>
           <p class="card-text">Très satisfaite de la prestation, c’est de loin la meilleure ! Je suis ravie encore merci !</p>
+          <p>22/02/24</p>
           <p>
             <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample5" aria-expanded="false" aria-controls="collapseWidthExample5">
              Réponse
@@ -289,11 +346,18 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Deborah</h5>
-          <p>Note : 5/5</p>
-          <h6>Bonne séance</h6>
+          <div>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>
+            <i class="fa-sharp fa-solid fa-star" style="color: #e88282;"></i>         
+          </div>
+          <h6>Excellent</h6>
           <p>Très satisfaite de la prestation, c’est de loin la meilleure ! Je suis ravie encore merci !
             Vous pouvez y aller les yeux fermés !
             </p>
+            <p>24/02/24</p>
             <p>
               <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExampl6" aria-expanded="false" aria-controls="collapseWidthExampl6">
                Réponse
@@ -310,7 +374,6 @@
       </div>
     </div>
   </div>
-
 </div>
 
 
@@ -350,6 +413,9 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"
       ></script>
-    </body>
+      <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8c0cfe8dbc.js" crossorigin="anonymous"></script>
+    
+  </body>
   </html>
   

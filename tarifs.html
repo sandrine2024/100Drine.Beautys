@@ -19,138 +19,227 @@
 </head>
 
 <body>
- <!-- barre de navigation -->
- <nav class="navbar navbar-expand-lg fixed-top font-weight-bold shadow">
+   <!-- barre de navigation -->
+   <nav class="navbar navbar-expand-lg fixed-top font-weight-bold shadow">
     <div class="container-fluid">
-      <a href="index.html">
-      <img class="logo navbar-brand" src="./images/logo 2 png.png" alt="logo" >
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarNav">
-        <ul class="navbar-nav ">
-          <li class="nav-item ps-5 pe-5">
-            <a class="nav-link text-dark actif" aria-current="tarif" href="tarifs.html">Tarifs</a>
-          </li>
-          <li class="nav-item pe-5">
-            <a class="nav-link text-dark" aria-current="connection" href="connection.html">Connection</a>
-          </li>
-          <li class="nav-item pe-5">
-            <a class="nav-link text-dark" aria-current="a propos" href="apropos.html">A Propos</a>
-          </li>
-          <li class="nav-item pe-5">
-            <a class="nav-link text-dark " aria-current="avis" href="galerie.html">Galerie</a>
-          </li>
-          <li class="nav-item pe-5">
-            <a class="nav-link text-dark " aria-current="contact" href="contact.html">Contact</a>
-          </li>
-        </ul>
+      <div>
+        <a href="index.html">
+          <img
+            class="logo navbar-brand actif"
+            src="./images/logo_sandrine.svg"
+            alt="logo"
+          />
+        </a>
+      </div>
+      <div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ps-5 pe-5">
+              <a
+                class="nav-link text-dark"
+                aria-current="tarif"
+                href="tarifs.html"
+                >Tarifs</a
+              >
+            </li>
+
+            <li class="nav-item pe-5">
+              <a
+                class="nav-link text-dark"
+                aria-current="a propos"
+                href="apropos.html"
+                >A Propos</a
+              >
+            </li>
+            <li class="nav-item pe-5">
+              <a
+                class="nav-link text-dark"
+                aria-current="avis"
+                href="galerie.html"
+                >Galerie</a
+              >
+            </li>
+            <li class="nav-item pe-5">
+              <a
+                class="nav-link text-dark"
+                aria-current="contact"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="connect nav-item pe-5   ">
+        <a
+        class="nav-link text-dark "
+        aria-current="connection"
+        href="connection.html"
+        >
+        <i class="fa-solid fa-user ms-1 d-flex justify-content-center text-decoration-none"></i>
+        <p class="connecter">Se connecter</p>
+        
+        </a>
+          
       </div>
     </div>
   </nav>
-
 <!-- //tarif -->
 
-    <div class="tarif d-flex flex-wrap justify-content-around pt-5 mt-5 mb-5" style="font-family: 'Playball', cursive;font-size: x-large;">
+    <div class="container-fluid tarif d-flex flex-wrap justify-content-around pt-5 mt-5 mb-5" style="font-family: 'Playball', cursive;font-size: x-large;">
         <div>
-            <div class="ms-5 d-flex flex-wrap pt-5" >
+            <div class=" ms-5 d-flex w-75 align-items-center" >
                 <img class="ms-3" src="./images/imga.jfif" style="height: 80px;border-radius: 50%;" alt="ongle">
             <p class="ms-5 d-flex align-items-center">Pose de vernis </p>
             <p class="ms-5 d-flex align-items-center">9,00 €</p>
             </div>
             <hr class="ms-5 ">
-            <div class="ms-5 d-flex flex-wrap" >
-                
+            <div class=" ms-5 d-flex w-75 align-items-center" > 
+              <div class="row"> 
             <p class="ms-5 d-flex align-items-center">Pose de vernis French</p>
+          </div> 
+          <div class="row">
             <p class="ms-5 d-flex align-items-center">12,00 €</p>
+            </div>
             <img class="ms-5" src="./images/pose french.jfif" style="height: 80px;border-radius: 50%;" alt="ongle">
             </div>
             <hr class="ms-5 ">
-            <div class="container-fluid ">
-              <div class="ms-5 d-flex w-75 align-items-center" >
+            <div class="container-fluid">
+              <div class=" ms-5 d-flex w-75 align-items-center" >
                   <img class="ms-3" src="./images/manucure classique.jfif" style="height: 80px;border-radius: 50%;" alt="ongle">
                   <div class="row">
-                    <p class="ms-5 d-flex row ">Manucure Classique </p>
+                    <p class="ms-5">Manucure Classique</p>
                   </div>
-              <div class=" row">
-                <p class="ms-5  ">19,00 €</p>
+              <div class="row">
+                <p class="ms-5">19,00 €</p>
               </div>
               </div>
             </div>
             <hr class="ms-5 ">
-            <div class="ms-5 d-flex flex-wrap" >
-                
+            <div class="ms-5 d-flex w-75 align-items-center" >
+              <div class="row">               
             <p class="ms-5 d-flex align-items-center">Manucure Pose de vernis</p>
+          </div>
+          <div class="row">
             <p class="ms-5 d-flex align-items-center">22,00 €</p>
+          </div>
             <img class="ms-5" src="./images/manucure pose vernis.jfif" style="height: 80px;border-radius: 50%;" alt="ongle">
             </div>
             <hr class="ms-5 ">
-            <div class="ms-5 d-flex flex-wrap" >
+            <div class="ms-5 d-flex w-75 align-items-center">
                 <img class="ms-3" src="./images/OIG4 (1).jfif" style="height: 80px;border-radius: 50%;" alt="ongle">
-            <p class="ms-5 d-flex align-items-center">Manucure Pose French </p>
-            <p class="ms-5 d-flex align-items-center">25,00 €</p>
+                <div class="row">
+                <p class="ms-5 d-flex align-items-center">Manucure Pose French </p>
+              </div>
+                <div class="row">
+                <p class="ms-5 d-flex align-items-center">25,00 €</p>
+              </div>
             </div>
             <hr class="ms-5">
-         <div class="ms-5 d-flex flex-wrap" >
-               
+         <div class=" ms-5 d-flex w-75 align-items-center" >
+          <div class="row">              
             <p class="ms-5 d-flex align-items-center">Manucure complète </p>
+          </div>
+          <div class="row">
             <p class="ms-5 d-flex align-items-center">30,00 €</p>
+          </div>
             <img class="ms-5" src="./images/manucure complète.jfif" style="height: 80px;border-radius: 50%;" alt="ongle">
             </div>
             <hr class="ms-5">
-            <div class="ms-5 mt-5 mb-5 d-flex flex-wrap" >
+            <div class=" ms-5 d-flex w-75 align-items-center" >
               <img class="ms-3" src="./images/réparation d'ongle.jfif" style="height: 80px;border-radius: 50%;" alt="ongle">
-          <p class="ms-5 d-flex align-items-center">Réparation Ongle </p>
+          <div class="row">
+              <p class="ms-5 d-flex align-items-center">Réparation Ongle </p>
+            </div>
+            <div class="row">
           <p class="ms-5  d-flex align-items-center">5,00 €</p>
-          </div>  
+        </div>
+          </div> 
+          <hr class="ms-5 ">
         </div>
 
 <!-- deuxieme div -->
 
         <div mt-5 mb-5>
-            <div class="ms-5 d-flex flex-wrap pt-5" >
+            <div class=" ms-5 d-flex w-75 align-items-center" >
                 <img class="ms-3" src="./images/semi permanent.jfif" style="height: 80px;border-radius: 100%;" alt="ongle">
-            <p class="ms-5 d-flex align-items-center">Semi Permanent </p>
+            <div class="row">
+                <p class="ms-5 d-flex align-items-center">Semi Permanent </p>
+              </div>
+              <div class="row">
             <p class="ms-5 d-flex align-items-center">25,00 €</p>
+          </div>
             </div>
             <hr class="ms-5">
-            <div class="ms-5 d-flex flex-wrap" >
-                
+            <div class=" ms-5 d-flex w-75 align-items-center" > 
+              <div class="row">             
             <p class="ms-5 d-flex align-items-center">Semi Permanent French </p>
+          </div> 
+          <div class="row">
             <p class="ms-5 d-flex align-items-center">29,00 €</p>
+          </div>
             <img class="ms-5" src="./images/semipermanent french.jfif" style="height: 80px;border-radius: 100%;" alt="ongle">
             </div>
             <hr class="ms-5">
-            <div class="ms-5 d-flex flex-wrap" >
+            <div class=" ms-5 d-flex w-75 align-items-center" >
                 <img class="ms-3" src="./images/pose complète resine.jfif" style="height: 80px;border-radius: 100%;" alt="ongle">
-            <p class="ms-5 d-flex align-items-center">Pose Complète Résine </p>
+            <div class="row">
+                <p class="ms-5 d-flex align-items-center">Pose Complète Résine </p>
+              </div>
+              <div class="row">
             <p class="ms-5 d-flex align-items-center">40,00 €</p>
+          </div>
             </div>
             <hr class="ms-5">
-            <div class="ms-5 d-flex flex-wrap" >
-                
+            <div class=" ms-5 d-flex w-75 align-items-center" >
+              <div class="row">               
             <p class="ms-5 d-flex align-items-center">Pose Complète Gel </p>
+          </div>
+          <div class="row">
             <p class="ms-5 d-flex align-items-center">49,00 €</p>
+          </div>
             <img class="ms-5" src="./images/pose complète gel.jfif" style="height: 80px;border-radius: 100%;" alt="ongle">
             </div>
             <hr class="ms-5">
-            <div class="ms-5 d-flex flex-wrap" >
+            <div class=" ms-5 d-flex w-75 align-items-center" >
                 <img class="ms-3" src="./images/remplissage gel.jfif" style="height: 80px;border-radius: 100%;" alt="ongle">
-            <p class="ms-5 d-flex align-items-center">Remplissage Gel </p>
+            <div class="row">
+                <p class="ms-5 d-flex align-items-center">Remplissage Gel </p>
+              </div>
+              <div class="row">
             <p class="ms-5 d-flex align-items-center">40,00 €</p>
+          </div>
             </div>
             <hr class="ms-5">
-         <div class="ms-5 d-flex flex-wrap" >               
+         <div class=" ms-5 d-flex w-75 align-items-center" > 
+          <div class="row">             
             <p class="ms-5 d-flex align-items-center">Dépose Ongles</p>
+          </div> 
+          <div class="row">
             <p class="ms-5 d-flex align-items-center">14,00 €</p>
+          </div>
             <img class="ms-5" src="./images/depose d'ongle.jfif" style="height: 80px;border-radius: 100%;" alt="ongle">
             </div>
             <hr class="ms-5">
-            <div class="ms-5 mt-5 mb-5 d-flex flex-wrap" >
+            <div class=" ms-5 d-flex w-75 align-items-center mb-5" >
               <img class="ms-5" src="./images/nail art d'ongle.jfif" style="height: 80px;border-radius: 100%;" alt="ongle">
+              <div class="row">
               <p class="ms-5 d-flex align-items-center">Nail Art ongle</p>
-              <p class="ms-5 d-flex align-items-center">3,00 €</p>              
+            </div>
+            <div class="row">
+              <p class="ms-5 d-flex align-items-center">3,00 €</p> 
+            </div>            
               </div>
         </div>
     </div>
@@ -174,6 +263,11 @@
   <!-- la partie JS de bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<!-- font awesome -->
+<script
+src="https://kit.fontawesome.com/8c0cfe8dbc.js"
+crossorigin="anonymous"
+></script>
 
     </body>
 

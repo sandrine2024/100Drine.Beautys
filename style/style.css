@@ -21,6 +21,14 @@ body{
     padding-bottom: 2px;
     cursor: pointer;
 }
+.connecter{
+    margin: 0;
+}
+.connect{
+    font-size: large !important;
+    display: flex;
+    flex-direction: column !important;
+}
 .actif{
     color:  #F09FA8!important;
     border-bottom: 3px solid  #F09FA8;
@@ -29,7 +37,7 @@ body{
 }
 /* section */
 .image{
-    background-image: url(/images/imgage1.jfif);
+    background-image: url(../images/imgage1.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -85,13 +93,6 @@ footer {
    .welcome{
     width: 100%;
     margin-top: 50px;
-
-   }
-  
-        
-
-     
-
-    
+   }    
 }
 
